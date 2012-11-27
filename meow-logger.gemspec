@@ -1,11 +1,11 @@
 # -*- encoding: utf-8 -*-
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'meow_logger/version'
+require 'meow-logger/version'
 
 Gem::Specification.new do |gem|
-  gem.name          = "meow_logger"
-  gem.version       = MeowLogger::VERSION
+  gem.name          = "meow-logger"
+  gem.version       = Meow::Logger::VERSION
   gem.authors       = ["Kristjan Rang"]
   gem.email         = ["mail@kristjanrang.eu"]
   gem.description   = %q{Custom Rails logger to stdout}
